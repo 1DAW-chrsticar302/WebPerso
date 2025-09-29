@@ -55,8 +55,10 @@
     transition: ease-out 0.5s;
 }
 
+
+
 .papelMetales:hover {
-    transform: translateX(-380px);
+    transform: translateX(-440px);
     transition: ease-in 0.5s;
 }
 
@@ -112,8 +114,24 @@
 }
 
 .der {
-    font-size: 20px;
-    margin: 30%;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 20%;
     position: absolute;
     top: 0;
+}
+
+.der p {
+    margin-bottom: 5%;
+}
+
+.nada {
+    text-decoration: none;
+    color: black;
+}
+
+.der img {
+    width: 6%;
+    margin-right: 5%;
 }
