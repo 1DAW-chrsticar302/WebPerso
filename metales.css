@@ -12,7 +12,7 @@
 }
 
 .texto {
-        background-image: url(img/copiaText.png);
+    background-image: url(img/copiaText.png);
     background-repeat: no-repeat;
     margin-top: 5%;
     width: 800px;
@@ -21,16 +21,45 @@
     padding-left: 5%;
 }
 
+.texto p {
+    margin-bottom: 7%;
+}
+
 .texto img {
-    width: 3%;
+    width: 6%;
     margin-right: 5%;
+}
+
+.raya {
+    float: left;
+}
+
+.metal {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.metal img {
+    width: 40%;
+}
+
+.raw2 div {
+    width: calc(100%/2);
+    font-size: 17px;
+}
+
+#otro {
+    margin-left: 200px;
 }
 
 .tabla {
     display: grid;
-    background-color: aqua;
-    width: 300px;
-    height: 300px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    background-color: rgb(0, 0, 0,0.2);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px grey;
+    box-shadow: grey;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
 }
